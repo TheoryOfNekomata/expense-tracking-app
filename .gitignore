@@ -79,6 +79,9 @@ crashlytics-build.properties
 .env.*.php
 .env.php
 .env
+/vendor
+Homestead.yaml
+Homestead.json
 ### Windows template
 # Windows image file caches
 Thumbs.db
@@ -98,4 +101,3 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-

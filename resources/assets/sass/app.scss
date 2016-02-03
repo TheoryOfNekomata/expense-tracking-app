@@ -1,1 +1,9 @@
+$font-family-sans-serif: sans-serif;
+$font-family-serif: serif;
+//$navbar-height: 65px;
+$navbar-height: 0;
+$icon-font-path: '../fonts/bootstrap/';
+$grid-float-breakpoint: 0;
+
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "components/layout";
