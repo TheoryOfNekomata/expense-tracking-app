@@ -16,12 +16,12 @@
               <div class="col-xs-5 col-sm-3 col-lg-3 text-right">
                 <div class="btn-group btn-group-justified">
                   <div class="btn-group"><button type="submit" data-ng-click="expenses.addSpending()" class="btn btn-danger">Spend</button></div>
-                  <div class="btn-group"><button type="submit" data-ng-click="expenses.addSaving()" class="btn btn-primary">Save</button></div>
+                  <div class="btn-group"><button type="submit" data-ng-click="expenses.addSaving()" class="btn btn-success">Save</button></div>
                 </div>
               </div>
             </div>
           </li>
-          <li class="list-group-item" data-ng-repeat-start="(timeDivision, items) in expenses.models.items | groupBy: 'timeDivision'">
+          <li class="list-group-item" data-ng-repeat-start="(timeDivision, items) in expenses.models.items | orderBy: 'timestamp' | groupBy: 'timeDivision'">
             <div class="row">
               <div class="col-xs-12" data-ng-bind="timeDivision"></div>
             </div>

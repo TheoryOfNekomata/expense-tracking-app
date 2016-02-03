@@ -40,23 +40,23 @@
                 },
                 {
                     name: 'Expense Name',
-                    value: 2000,
+                    value: 250,
+                    timestamp: 1454464832841
+                },
+                {
+                    name: 'Expense Name',
+                    value: 1500,
                     timestamp: 1454464832833
                 },
                 {
                     name: 'Expense Name',
-                    value: 2000,
-                    timestamp: 1454464832835
-                },
-                {
-                    name: 'Expense Name',
-                    value: 2000,
+                    value: 500,
                     timestamp: 1454464832839
                 },
                 {
                     name: 'Expense Name',
-                    value: 2000,
-                    timestamp: 1454464832841
+                    value: 1000,
+                    timestamp: 1454464832835
                 }
             ];
 
